@@ -46,6 +46,7 @@ namespace Dice_roll
             }
             label1.Text = $"Sum: {sumed_rolls.ToString()}";
             sumed_rolls = 0;
+        
         }
 
         private void label1_Click(object sender, EventArgs e)
