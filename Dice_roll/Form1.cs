@@ -37,9 +37,6 @@ namespace Dice_roll
             numericUpDown1.Maximum = 3;
             int dice_amount = (int)numericUpDown1.Value;
             for (int i = 0; i < dice_amount; i++)  { 
-            
-
-
                 dice.Roll_number();
                 sumed_rolls += dice.rolled_number;
                 dice.Display_number(pic_boxes[i]);
